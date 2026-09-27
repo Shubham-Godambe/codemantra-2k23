@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map - CODEMANTRA 2K23</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">CODEMANTRA 2K23</h1>
+            <ul class="nav-links">
+                <li><a href="/">Dashboard</a></li>
+                <li><a href="/results">Results</a></li>
+                <li><a href="/map">Map</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Geospatial Visualization</h2>
+        <div class="map-warning">
+            <strong>⚠️ Demo Coordinates:</strong> Without GPS/georeferencing metadata, detected trees are displayed at an approximate reference location.
+            Actual geographic accuracy requires image metadata or ground control points.
+        </div>
+
+        <div class="card map-card">
+            <div id="map" class="map-container"></div>
+        </div>
+
+        <div class="card map-info-card">
+            <h3>Map Information</h3>
+            <div id="mapStats">
+                <p id="treeCount">Trees Displayed: Loading...</p>
+                <p id="centerCoords">Center Coordinates: Loading...</p>
+                <p id="mapNote">Map shows detected trees with approximate geographic conversion.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>CODEMANTRA 2K23 - Academic MVP | SIH Problem Statement | 2023</p>
+    </footer>
+
+    <script src="/static/js/map.js"></script>
+</body>
+</html>

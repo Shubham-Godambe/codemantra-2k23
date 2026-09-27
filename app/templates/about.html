@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - CODEMANTRA 2K23</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">CODEMANTRA 2K23</h1>
+            <ul class="nav-links">
+                <li><a href="/">Dashboard</a></li>
+                <li><a href="/results">Results</a></li>
+                <li><a href="/map">Map</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="about-section">
+            <h2>About CODEMANTRA 2K23</h2>
+
+            <div class="card">
+                <h3>Problem Statement</h3>
+                <p>
+                    <strong>"Application of Image Analytics For Tree Enumeration For Diversion of Forest Land"</strong>
+                </p>
+                <p>
+                    This project addresses the Smart India Hackathon problem statement focused on developing solutions for tree enumeration and forest land analysis using aerial imagery.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Project Overview</h3>
+                <p>
+                    CODEMANTRA 2K23 is an AI-assisted geospatial computer-vision prototype designed to detect, enumerate, and analyze trees from aerial imagery. 
+                    The system uses classical computer vision techniques combined with GIS visualization to provide insights into forest composition and tree density.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Objectives</h3>
+                <ul class="objectives-list">
+                    <li>🌳 Automated tree enumeration from aerial images</li>
+                    <li>📊 Vegetation segmentation and analysis</li>
+                    <li>🗺️ Geospatial visualization and GeoJSON export</li>
+                    <li>📈 Tree density calculation and forest-land metrics</li>
+                    <li>✓ Ground-truth validation framework</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Technical Architecture</h3>
+                <div class="architecture">
+                    <p><strong>Image Input</strong></p>
+                    <p>↓</p>
+                    <p><strong>Preprocessing & HSV Color Space Conversion</strong></p>
+                    <p>↓</p>
+                    <p><strong>Vegetation Segmentation</strong></p>
+                    <p>↓</p>
+                    <p><strong>Morphological Operations & Noise Reduction</strong></p>
+                    <p>↓</p>
+                    <p><strong>Contour Detection & Tree Identification</strong></p>
+                    <p>↓</p>
+                    <p><strong>Geospatial Conversion (Pixel → Geographic Coordinates)</strong></p>
+                    <p>↓</p>
+                    <p><strong>Leaflet Visualization & GeoJSON Export</strong></p>
+                    <p>↓</p>
+                    <p><strong>Analysis, Validation & Reporting</strong></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Technology Stack</h3>
+                <div class="tech-stack">
+                    <div class="tech-category">
+                        <h4>Backend</h4>
+                        <ul>
+                            <li>Python 3.11+</li>
+                            <li>FastAPI</li>
+                            <li>Uvicorn</li>
+                        </ul>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Computer Vision</h4>
+                        <ul>
+                            <li>OpenCV</li>
+                            <li>NumPy</li>
+                        </ul>
+                    </div>
+                    <div class="tech-category">
+                        <h4>GIS & Geospatial</h4>
+                        <ul>
+                            <li>GeoPandas</li>
+                            <li>Shapely</li>
+                            <li>Leaflet.js</li>
+                            <li>GeoJSON</li>
+                        </ul>
+                    </div>
+                    <div class="tech-category">
+                        <h4>Frontend</h4>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Chart.js</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Key Features</h3>
+                <ul class="features-list">
+                    <li>✅ Drag-and-drop image upload (JPG, PNG, JPEG, TIFF)</li>
+                    <li>✅ Configurable tree detection parameters</li>
+                    <li>✅ Real-time tree detection with OpenCV</li>
+                    <li>✅ Visual overlay of detected trees on original image</li>
+                    <li>✅ Tree density calculation (trees per hectare)</li>
+                    <li>✅ Interactive Leaflet map with approximate geographic coordinates</li>
+                    <li>✅ Export to CSV and GeoJSON formats</li>
+                    <li>✅ Ground-truth validation with accuracy metrics</li>
+                    <li>✅ Statistical analysis and visualization</li>
+                </ul>
+            </div>
+
+            <div class="card limitations">
+                <h3>⚠️ Important Limitations</h3>
+                <ul>
+                    <li><strong>Classical Computer Vision MVP:</strong> Uses OpenCV and HSV thresholding, not deep learning. Accuracy depends on image quality and vegetation type.</li>
+                    <li><strong>Demo Coordinates:</strong> Geographic coordinates are approximate when GPS/georeferencing metadata is unavailable. Use configurable reference location.</li>
+                    <li><strong>No Species Classification:</strong> The system detects vegetation but does not classify tree species. Would require multispectral analysis or trained models.</li>
+                    <li><strong>Prototype Validation:</strong> Simple count-based validation. Production systems require spatial matching, IoU metrics, and field validation.</li>
+                    <li><strong>Not for Official Decisions:</strong> This is an academic prototype. Not intended for official forest-land approval decisions without proper validation.</li>
+                    <li><strong>Single-Image Processing:</strong> Processes one image at a time. No time-series or multi-temporal analysis.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Future Improvements</h3>
+                <ul class="future-list">
+                    <li>🚀 YOLO/DeepForest deep learning models for improved accuracy</li>
+                    <li>🛰️ Sentinel-2 and Landsat satellite imagery integration</li>
+                    <li>🚁 Drone imagery support with flight log processing</li>
+                    <li>📡 Multispectral analysis (NDVI, vegetation indices)</li>
+                    <li>🗺️ Real georeferenced raster processing with proper CRS handling</li>
+                    <li>🌍 Automated species classification using spectral features</li>
+                    <li>📊 Improved ground-truth validation with spatial matching</li>
+                    <li>☁️ Cloud deployment (AWS/GCP) and batch processing</li>
+                    <li>🏛️ Forest department database integration APIs</li>
+                    <li>📱 Mobile app for field data collection</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>How to Use</h3>
+                <ol class="usage-steps">
+                    <li><strong>Upload Image:</strong> Navigate to Dashboard, upload an aerial forest image</li>
+                    <li><strong>Configure Parameters:</strong> Adjust detection thresholds if needed</li>
+                    <li><strong>Run Detection:</strong> Click "Run Detection" to analyze the image</li>
+                    <li><strong>View Results:</strong> See detected trees with statistics</li>
+                    <li><strong>Explore Map:</strong> View trees on interactive Leaflet map</li>
+                    <li><strong>Download Data:</strong> Export results as CSV or GeoJSON</li>
+                    <li><strong>Validate:</strong> Compare detection against ground truth if available</li>
+                </ol>
+            </div>
+
+            <div class="card">
+                <h3>For Researchers & Developers</h3>
+                <p>
+                    This project is designed as an academic prototype suitable for:
+                </p>
+                <ul>
+                    <li>🎓 Student portfolios and Master's applications</li>
+                    <li>📚 Computer vision and GIS education</li>
+                    <li>🔬 Research on vegetation detection algorithms</li>
+                    <li>🏗️ Baseline for production forest-monitoring systems</li>
+                </ul>
+                <p style="margin-top: 1em;">
+                    The code is intentionally simple and well-documented for learning purposes. 
+                    Production deployments would require trained models, real georeferencing, comprehensive validation, and proper data provenance.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Academic Integrity Note</h3>
+                <p>
+                    This MVP is presented as an honest academic prototype:
+                </p>
+                <ul>
+                    <li>✓ Transparent about using classical CV vs. deep learning</li>
+                    <li>✓ Demo coordinates clearly labeled as approximate</li>
+                    <li>✓ Validation methodology is simple and documented</li>
+                    <li>✓ No fabricated datasets or false performance claims</li>
+                    <li>✓ Sample images are synthetic or properly attributed</li>
+                </ul>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>CODEMANTRA 2K23 - Academic MVP | SIH Problem Statement | 2023</p>
+    </footer>
+</body>
+</html>

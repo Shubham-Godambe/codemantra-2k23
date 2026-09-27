@@ -1,0 +1,791 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "name": "Detected Trees",
+    "reference_location": "Lat: 28.7041, Lon: 77.1025",
+    "image_area_meters": 250000.0,
+    "note": "Coordinates are approximate. For demonstration purposes."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10503253137446,
+          28.706296141160838
+        ]
+      },
+      "properties": {
+        "tree_id": 1,
+        "pixel_x": 993.13,
+        "pixel_y": 658.69,
+        "radius_pixels": 9.4,
+        "contour_area_pixels": 177.38,
+        "latitude": 28.706296,
+        "longitude": 77.105033,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10310182934855,
+          28.706318564654104
+        ]
+      },
+      "properties": {
+        "tree_id": 2,
+        "pixel_x": 617.19,
+        "pixel_y": 662.01,
+        "radius_pixels": 37.32,
+        "contour_area_pixels": 1659.39,
+        "latitude": 28.706319,
+        "longitude": 77.103102,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10218701035303,
+          28.706232185538813
+        ]
+      },
+      "properties": {
+        "tree_id": 3,
+        "pixel_x": 439.06,
+        "pixel_y": 649.22,
+        "radius_pixels": 48.5,
+        "contour_area_pixels": 3108.5,
+        "latitude": 28.706232,
+        "longitude": 77.102187,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10114189035077,
+          28.706283607496424
+        ]
+      },
+      "properties": {
+        "tree_id": 4,
+        "pixel_x": 235.55,
+        "pixel_y": 656.84,
+        "radius_pixels": 54.29,
+        "contour_area_pixels": 4334.45,
+        "latitude": 28.706284,
+        "longitude": 77.101142,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10020051036412,
+          28.70620600802447
+        ]
+      },
+      "properties": {
+        "tree_id": 5,
+        "pixel_x": 52.25,
+        "pixel_y": 645.35,
+        "radius_pixels": 56.19,
+        "contour_area_pixels": 4930.02,
+        "latitude": 28.706206,
+        "longitude": 77.100201,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10012026645097,
+          28.705564085313764
+        ]
+      },
+      "properties": {
+        "tree_id": 6,
+        "pixel_x": 36.62,
+        "pixel_y": 550.29,
+        "radius_pixels": 7.21,
+        "contour_area_pixels": 120.64,
+        "latitude": 28.705564,
+        "longitude": 77.10012,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10291125005485,
+          28.70551132453199
+        ]
+      },
+      "properties": {
+        "tree_id": 7,
+        "pixel_x": 580.08,
+        "pixel_y": 542.48,
+        "radius_pixels": 15.63,
+        "contour_area_pixels": 494.48,
+        "latitude": 28.705511,
+        "longitude": 77.102911,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1050260437589,
+          28.70550143188541
+        ]
+      },
+      "properties": {
+        "tree_id": 8,
+        "pixel_x": 991.87,
+        "pixel_y": 541.02,
+        "radius_pixels": 32.06,
+        "contour_area_pixels": 1424.79,
+        "latitude": 28.705501,
+        "longitude": 77.105026,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10411240112964,
+          28.70551132453199
+        ]
+      },
+      "properties": {
+        "tree_id": 9,
+        "pixel_x": 813.96,
+        "pixel_y": 542.48,
+        "radius_pixels": 63.71,
+        "contour_area_pixels": 7275.58,
+        "latitude": 28.705511,
+        "longitude": 77.104112,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10317204277254,
+          28.705382720126423
+        ]
+      },
+      "properties": {
+        "tree_id": 10,
+        "pixel_x": 630.86,
+        "pixel_y": 523.44,
+        "radius_pixels": 67.67,
+        "contour_area_pixels": 8916.38,
+        "latitude": 28.705383,
+        "longitude": 77.103172,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1011226068058,
+          28.70533026728226
+        ]
+      },
+      "properties": {
+        "tree_id": 11,
+        "pixel_x": 231.8,
+        "pixel_y": 515.67,
+        "radius_pixels": 70.21,
+        "contour_area_pixels": 8950.71,
+        "latitude": 28.70533,
+        "longitude": 77.101123,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10015323072543,
+          28.705271307897593
+        ]
+      },
+      "properties": {
+        "tree_id": 12,
+        "pixel_x": 43.04,
+        "pixel_y": 506.94,
+        "radius_pixels": 52.01,
+        "contour_area_pixels": 5787.85,
+        "latitude": 28.705271,
+        "longitude": 77.100153,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10407108015495,
+          28.704290211636632
+        ]
+      },
+      "properties": {
+        "tree_id": 13,
+        "pixel_x": 805.92,
+        "pixel_y": 361.67,
+        "radius_pixels": 45.97,
+        "contour_area_pixels": 4908.56,
+        "latitude": 28.70429,
+        "longitude": 77.104071,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10498003844046,
+          28.704365398326864
+        ]
+      },
+      "properties": {
+        "tree_id": 14,
+        "pixel_x": 982.91,
+        "pixel_y": 372.8,
+        "radius_pixels": 58.46,
+        "contour_area_pixels": 5394.94,
+        "latitude": 28.704365,
+        "longitude": 77.10498,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10307173788112,
+          28.70427804125809
+        ]
+      },
+      "properties": {
+        "tree_id": 15,
+        "pixel_x": 611.33,
+        "pixel_y": 359.86,
+        "radius_pixels": 55.31,
+        "contour_area_pixels": 7113.93,
+        "latitude": 28.704278,
+        "longitude": 77.103072,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10211349542024,
+          28.70424162532147
+        ]
+      },
+      "properties": {
+        "tree_id": 16,
+        "pixel_x": 424.74,
+        "pixel_y": 354.47,
+        "radius_pixels": 64.7,
+        "contour_area_pixels": 7855.89,
+        "latitude": 28.704242,
+        "longitude": 77.102113,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10116484418604,
+          28.704179289894043
+        ]
+      },
+      "properties": {
+        "tree_id": 17,
+        "pixel_x": 240.02,
+        "pixel_y": 345.24,
+        "radius_pixels": 51.52,
+        "contour_area_pixels": 5649.09,
+        "latitude": 28.704179,
+        "longitude": 77.101165,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10017166934065,
+          28.704167981137
+        ]
+      },
+      "properties": {
+        "tree_id": 18,
+        "pixel_x": 46.63,
+        "pixel_y": 343.57,
+        "radius_pixels": 61.58,
+        "contour_area_pixels": 8634.57,
+        "latitude": 28.704168,
+        "longitude": 77.100172,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10407227917308,
+          28.70325580111127
+        ]
+      },
+      "properties": {
+        "tree_id": 19,
+        "pixel_x": 806.15,
+        "pixel_y": 208.5,
+        "radius_pixels": 58.65,
+        "contour_area_pixels": 7047.18,
+        "latitude": 28.703256,
+        "longitude": 77.104072,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10500636143402,
+          28.703251914656892
+        ]
+      },
+      "properties": {
+        "tree_id": 20,
+        "pixel_x": 988.04,
+        "pixel_y": 207.92,
+        "radius_pixels": 48.61,
+        "contour_area_pixels": 3860.0,
+        "latitude": 28.703252,
+        "longitude": 77.105006,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10214563473838,
+          28.7031680700895
+        ]
+      },
+      "properties": {
+        "tree_id": 21,
+        "pixel_x": 431.0,
+        "pixel_y": 195.51,
+        "radius_pixels": 61.96,
+        "contour_area_pixels": 8584.02,
+        "latitude": 28.703168,
+        "longitude": 77.102146,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10023151203843,
+          28.7031290275256
+        ]
+      },
+      "properties": {
+        "tree_id": 22,
+        "pixel_x": 58.28,
+        "pixel_y": 189.72,
+        "radius_pixels": 58.9,
+        "contour_area_pixels": 6928.92,
+        "latitude": 28.703129,
+        "longitude": 77.100232,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10471924572276,
+          28.702259941355337
+        ]
+      },
+      "properties": {
+        "tree_id": 23,
+        "pixel_x": 932.13,
+        "pixel_y": 61.04,
+        "radius_pixels": 6.37,
+        "contour_area_pixels": 101.57,
+        "latitude": 28.70226,
+        "longitude": 77.104719,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10403643596948,
+          28.70220385995454
+        ]
+      },
+      "properties": {
+        "tree_id": 24,
+        "pixel_x": 799.17,
+        "pixel_y": 52.73,
+        "radius_pixels": 45.74,
+        "contour_area_pixels": 5123.14,
+        "latitude": 28.702204,
+        "longitude": 77.104036,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10440328531477,
+          28.701870830589773
+        ]
+      },
+      "properties": {
+        "tree_id": 25,
+        "pixel_x": 870.61,
+        "pixel_y": 3.42,
+        "radius_pixels": 6.37,
+        "contour_area_pixels": 83.92,
+        "latitude": 28.701871,
+        "longitude": 77.104403,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10423025937708,
+          28.701884020785215
+        ]
+      },
+      "properties": {
+        "tree_id": 26,
+        "pixel_x": 836.91,
+        "pixel_y": 5.37,
+        "radius_pixels": 7.64,
+        "contour_area_pixels": 129.7,
+        "latitude": 28.701884,
+        "longitude": 77.10423,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10378641023252,
+          28.701870830589773
+        ]
+      },
+      "properties": {
+        "tree_id": 27,
+        "pixel_x": 750.49,
+        "pixel_y": 3.42,
+        "radius_pixels": 7.21,
+        "contour_area_pixels": 105.86,
+        "latitude": 28.701871,
+        "longitude": 77.103786,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1037187044308,
+          28.701880723236354
+        ]
+      },
+      "properties": {
+        "tree_id": 28,
+        "pixel_x": 737.3,
+        "pixel_y": 4.88,
+        "radius_pixels": 5.69,
+        "contour_area_pixels": 83.92,
+        "latitude": 28.701881,
+        "longitude": 77.103719,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10357326233824,
+          28.70186753304091
+        ]
+      },
+      "properties": {
+        "tree_id": 29,
+        "pixel_x": 708.98,
+        "pixel_y": 2.93,
+        "radius_pixels": 13.03,
+        "contour_area_pixels": 192.17,
+        "latitude": 28.701868,
+        "longitude": 77.103573,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1033902059114,
+          28.701864235492053
+        ]
+      },
+      "properties": {
+        "tree_id": 30,
+        "pixel_x": 673.34,
+        "pixel_y": 2.44,
+        "radius_pixels": 14.37,
+        "contour_area_pixels": 229.84,
+        "latitude": 28.701864,
+        "longitude": 77.10339,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10310957016304,
+          28.702087057484196
+        ]
+      },
+      "properties": {
+        "tree_id": 31,
+        "pixel_x": 618.69,
+        "pixel_y": 35.44,
+        "radius_pixels": 53.87,
+        "contour_area_pixels": 5515.1,
+        "latitude": 28.702087,
+        "longitude": 77.10311,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10280904271316,
+          28.701874128138634
+        ]
+      },
+      "properties": {
+        "tree_id": 32,
+        "pixel_x": 560.18,
+        "pixel_y": 3.91,
+        "radius_pixels": 14.58,
+        "contour_area_pixels": 335.69,
+        "latitude": 28.701874,
+        "longitude": 77.102809,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10256770580172,
+          28.701864235492053
+        ]
+      },
+      "properties": {
+        "tree_id": 33,
+        "pixel_x": 513.18,
+        "pixel_y": 2.44,
+        "radius_pixels": 5.9,
+        "contour_area_pixels": 65.33,
+        "latitude": 28.701864,
+        "longitude": 77.102568,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10247993902172,
+          28.70186093794319
+        ]
+      },
+      "properties": {
+        "tree_id": 34,
+        "pixel_x": 496.09,
+        "pixel_y": 1.95,
+        "radius_pixels": 6.18,
+        "contour_area_pixels": 58.65,
+        "latitude": 28.701861,
+        "longitude": 77.10248,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10240471035316,
+          28.70186093794319
+        ]
+      },
+      "properties": {
+        "tree_id": 35,
+        "pixel_x": 481.45,
+        "pixel_y": 1.95,
+        "radius_pixels": 5.26,
+        "contour_area_pixels": 51.5,
+        "latitude": 28.701861,
+        "longitude": 77.102405,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10214936158181,
+          28.702132902248955
+        ]
+      },
+      "properties": {
+        "tree_id": 36,
+        "pixel_x": 431.72,
+        "pixel_y": 42.22,
+        "radius_pixels": 54.26,
+        "contour_area_pixels": 6148.82,
+        "latitude": 28.702133,
+        "longitude": 77.102149,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10189315540688,
+          28.70186093794319
+        ]
+      },
+      "properties": {
+        "tree_id": 37,
+        "pixel_x": 381.84,
+        "pixel_y": 1.95,
+        "radius_pixels": 6.18,
+        "contour_area_pixels": 58.65,
+        "latitude": 28.701861,
+        "longitude": 77.101893,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10122187912437,
+          28.7020703697314
+        ]
+      },
+      "properties": {
+        "tree_id": 38,
+        "pixel_x": 251.13,
+        "pixel_y": 32.96,
+        "radius_pixels": 62.56,
+        "contour_area_pixels": 7571.7,
+        "latitude": 28.70207,
+        "longitude": 77.101222,
+        "approximation": "demo_coordinates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.10026885554522,
+          28.701990833523094
+        ]
+      },
+      "properties": {
+        "tree_id": 39,
+        "pixel_x": 65.55,
+        "pixel_y": 21.19,
+        "radius_pixels": 55.92,
+        "contour_area_pixels": 5771.64,
+        "latitude": 28.701991,
+        "longitude": 77.100269,
+        "approximation": "demo_coordinates"
+      }
+    }
+  ]
+}

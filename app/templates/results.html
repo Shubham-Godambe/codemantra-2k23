@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detection Results - CODEMANTRA 2K23</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">CODEMANTRA 2K23</h1>
+            <ul class="nav-links">
+                <li><a href="/">Dashboard</a></li>
+                <li><a href="/results">Results</a></li>
+                <li><a href="/map">Map</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Detection Results & Analysis</h2>
+
+        <div class="results-section">
+            <!-- Processed Image -->
+            <div class="card wide-card">
+                <h3>Detected Trees Visualization</h3>
+                <div class="image-comparison">
+                    <div class="comparison-item">
+                        <h4>Original Image</h4>
+                        <img id="originalImage" src="" alt="Original" class="comparison-image">
+                    </div>
+                    <div class="comparison-item">
+                        <h4>Detected Trees</h4>
+                        <img id="processedImage" src="" alt="Processed" class="comparison-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Analysis Metrics -->
+            <div class="card metrics-card">
+                <h3>Analysis Metrics</h3>
+                <div class="metrics-grid">
+                    <div class="metric">
+                        <label>Total Trees Detected</label>
+                        <span id="metricTotalTrees" class="metric-value">-</span>
+                    </div>
+                    <div class="metric">
+                        <label>Estimated Area</label>
+                        <span id="metricArea" class="metric-value">-</span>
+                    </div>
+                    <div class="metric">
+                        <label>Tree Density</label>
+                        <span id="metricDensity" class="metric-value">-</span>
+                    </div>
+                    <div class="metric">
+                        <label>Avg Crown Area</label>
+                        <span id="metricAvgArea" class="metric-value">-</span>
+                    </div>
+                    <div class="metric">
+                        <label>Largest Tree</label>
+                        <span id="metricMaxArea" class="metric-value">-</span>
+                    </div>
+                    <div class="metric">
+                        <label>Smallest Tree</label>
+                        <span id="metricMinArea" class="metric-value">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tree Area Distribution Chart -->
+            <div class="card chart-card">
+                <h3>Tree Crown Area Distribution</h3>
+                <canvas id="areaChart"></canvas>
+            </div>
+
+            <!-- Trees Table -->
+            <div class="card table-card">
+                <h3>Detected Trees Details</h3>
+                <table id="treesTable" class="trees-table">
+                    <thead>
+                        <tr>
+                            <th>Tree ID</th>
+                            <th>Pixel X</th>
+                            <th>Pixel Y</th>
+                            <th>Area (pixels)</th>
+                            <th>Radius (pixels)</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                        </tr>
+                    </thead>
+                    <tbody id="treesList">
+                    </tbody>
+                </table>
+                <div id="tableMessage" class="status-message">No trees detected yet</div>
+            </div>
+
+            <!-- Export Options -->
+            <div class="card export-card">
+                <h3>Export Results</h3>
+                <div class="export-buttons">
+                    <button id="exportCSV" class="btn btn-secondary">📄 Download CSV</button>
+                    <button id="exportGeoJSON" class="btn btn-secondary">🗺️ Download GeoJSON</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>CODEMANTRA 2K23 - Academic MVP | SIH Problem Statement | 2023</p>
+    </footer>
+
+    <script src="/static/js/results.js"></script>
+</body>
+</html>
